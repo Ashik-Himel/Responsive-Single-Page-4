@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(fonts/Poppins-Bold.ttf);
+}
+:root {
+    --primary-color: hsl(25, 93%, 58%);
+    --secondary-color: hsl(25, 93%, 45%);
+}
