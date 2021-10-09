@@ -34,8 +34,10 @@ textarea {resize: none;}
 .icon-box i {color: var(--primary-color); font-size: 4rem;}
 
 .section2-area h3 {color: var(--primary-color); font-size: 1.5rem;}
-.map {margin-left: auto; display: block;}
+
+.map {width: 100%; height: 300px;}
 
 @media screen and (min-width: 768px) {
     .hero-section > div {gap: 0;}
+    .map {margin-left: auto; display: block; width: 400px; height: 300px;}
 }
