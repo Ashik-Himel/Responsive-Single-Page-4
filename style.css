@@ -22,4 +22,6 @@ body {font-family: "Poppins Medium";}
 .paragraph {font-size: 0.9rem;}
 .icon-group {display: grid; grid-template-columns: 50% 50%; gap: 15px;}
 .icon-group img {height: 50px;}
-.curve-line {right: 0; top: 0; z-index: -1;}
+.curve-line {right: 0; top: 0; max-height: 100%; z-index: 0;}
+[src="images/hero-image.svg"] {z-index: 1;}
+.search-bar input:nth-child(1) {width: 70%;}
