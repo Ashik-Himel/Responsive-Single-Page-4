@@ -23,8 +23,11 @@ textarea {resize: none;}
 .paragraph {font-size: 0.9rem;}
 .icon-group {display: grid; grid-template-columns: 45% 45%; gap: 15px;}
 .icon-group img {height: 50px;}
-.curve-line {right: 0; top: 0;}
+.hero-image {z-index: 1;}
+.curve-line {right: 0; top: 0; z-index: -1;}
 .search-bar input:nth-child(1) {width: 70%;}
+
+.hero-section > div {gap: 3rem;}
 
 .services-area, .contact-area {background-color: rgba(247,132,49,0.2);}
 .section-heading::after {content: ""; display: block; width: 150px; height: 2px; background-color: var(--primary-color); margin: 5px auto 0;}
