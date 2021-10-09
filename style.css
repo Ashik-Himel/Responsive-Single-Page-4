@@ -39,5 +39,5 @@ textarea {resize: none;}
 
 @media screen and (min-width: 768px) {
     .hero-section > div {gap: 0;}
-    .map {margin-left: auto; display: block; width: 400px; height: 300px;}
+    .map {margin-left: auto; display: block; width: 400px;}
 }
