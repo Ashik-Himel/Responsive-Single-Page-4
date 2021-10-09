@@ -20,7 +20,7 @@ textarea {resize: none;}
 .btn-primary:hover {background-color: var(--secondary-color); border-color: var(--secondary-color);}
 .site-logo span {color: var(--primary-color);}
 .display-4 span {display: block; font-family: "Poppins Bold"; color: var(--primary-color);}
-.paragraph {font-size: 0.9rem;}
+.paragraph {font-size: 0.9rem; opacity: 0.8;}
 .icon-group {display: grid; grid-template-columns: 45% 45%; gap: 15px;}
 .icon-group img {height: 50px;}
 .hero-image {z-index: 1;}
