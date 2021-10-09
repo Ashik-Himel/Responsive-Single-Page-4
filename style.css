@@ -14,6 +14,7 @@
 ::placeholder {font-family: "Poppins Medium"; font-size: 0.9rem;}
 body {font-family: "Poppins Medium";}
 
+.header-area {background-image: linear-gradient(135deg, rgba(247,132,49,0.8) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(247,132,49,0.6) 100%);}
 .btn-primary {background-color: var(--primary-color); border-color: var(--primary-color);}
 .btn-primary:hover {background-color: var(--secondary-color); border-color: var(--secondary-color);}
 .site-logo span {color: var(--primary-color);}
